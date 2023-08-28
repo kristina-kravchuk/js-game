@@ -1,0 +1,65 @@
+body{
+background-image: url(https://th.bing.com/th/id/R.fbb590ab01172209b82a04a54426d083?rik=yUHWVyOnJO6SJQ&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f212565-Grand_Theft_Auto_V-video_games-PC_gaming.jpg&ehk=FctSu1IjgVCCpeCX5G9soSuZcyYQGRWfXjSTtN5zpmA%3d&risl=&pid=ImgRaw&r=0);
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;
+}
+
+.div{
+    display: flex;
+justify-content: center;
+}
+.container{
+    background-color: aliceblue;
+    margin-top: 150px;
+    padding: 30px;
+    border-radius: 30px;
+}
+#guess{
+    padding: 10px;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+h3{
+    font-family: 'Inter Tight', sans-serif;
+}
+#btn{
+    background-color: #937DC2;
+    color: #fff;
+    font-family: 'Inter Tight', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: #C689C6;
+    color: yellow;
+    padding: 20px;
+}
+#heading{
+    color: #8946A6;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media all and (max-width:800px){
+    #heading{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:500px){
+    #heading{
+        font-size: 20px;
+    }
+
+}
